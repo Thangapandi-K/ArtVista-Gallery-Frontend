@@ -48,7 +48,7 @@ const AddProduct = () => {
     
   return (
     <div className='container'>
-        <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>ADD PRODUCT DETAILS</div>
+        <div className='fs-2 p-2 fw-bolder m-3 text-center bg-light shadow border sticky-top'>ADD PRODUCT DETAILS</div>
         <div className='d-flex justify-content-center'>
         <form onSubmit={addProduct} className='form col-md-6 p-3 col-lg-12 border border-5 w-50'>
                 <div>

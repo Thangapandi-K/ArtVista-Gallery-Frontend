@@ -6,7 +6,7 @@ const HomeHeader = () => {
     <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 fs-5">
           <div className="container-fluid">
-            <Link className="navbar-brand" href="#">ArtVista</Link>
+            <Link className="navbar-brand fs-2" href="#">ArtVista</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
             </button>

@@ -28,7 +28,7 @@ const UserOrders = () => {
 
   return (
     <div className='container'>
-      <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>Orders</div>
+      <div className='fs-3 fw-bolder m-3 p-2 text-center bg-light border shadow p-1 sticky-top'>Orders</div>
       <div className='row'>
       {
         (orderL.length == 0)

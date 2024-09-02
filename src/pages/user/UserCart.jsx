@@ -83,8 +83,8 @@ const UserCart = () => {
 
   return (
     <div className='container'>
-      <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>Cart</div>
-      <div className='d-flex align-items-center bg-success bg-gradient text-light shadow mt-2 mb-2 row sticky-top'>
+      <div className='fs-3 p-2 bg-light shadow border fw-bolder m-3 text-center  sticky-top'>Cart</div>
+      <div className='d-flex align-items-center bg-light-subtle border bg-gradient shadow mt-2 mb-2 p-2 row sticky-top'>
         <span className='col text-start p-2'><h5> Grand Total: Rs.{total}.00 </h5></span>
         <span className='col text-end p-2'><button type='button' className='col btn btn-warning' onClick={handleMakePayment}>Place Order</button></span>
     </div>

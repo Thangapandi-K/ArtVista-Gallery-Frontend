@@ -95,7 +95,7 @@ const Dashboard = () => {
   return (
     <>
     <div className='container'>
-        <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>DASHBOARD</div>
+        <div className='fs-2 fw-bolder m-3 text-center bg-light shadow border sticky-top'>DASHBOARD</div>
         <div className='d-flex justify-content-evenly align-items-center mt-5'>
             <div className='border m-1 text-center p-5 border-primary bg-primary-subtle'>
                 <div className='fs-6 fw-medium'>Total Orders</div><br/>

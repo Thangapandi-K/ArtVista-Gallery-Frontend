@@ -45,7 +45,7 @@ const ViewOrders = () => {
 
   return (
     <div className='container'>
-      <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>Orders</div>
+      <div className='fs-2 fw-bolder m-3 text-center bg-light shadow border sticky-top'>Orders</div>
       <div>
       <div className="dropdown col text-end h6"> Order Filter : &nbsp;
         <button className={`btn btn-primary dropdown-toggle ${filter === 'All' ? 'btn-primary' : filter === 'Order Placed' ? 'btn btn-warning' : filter === 'Item Dispatched' ? 'btn btn-info' : filter === 'Item Delivered' ? 'btn btn-success' : 'btn btn-danger'}`} type="button" data-bs-toggle="dropdown" aria-expanded="false">

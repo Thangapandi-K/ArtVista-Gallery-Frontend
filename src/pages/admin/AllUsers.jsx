@@ -35,7 +35,7 @@ const AllUsers = () => {
 
   return (
     <div className='container'>
-        <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>All Users</div>
+        <div className='fs-2 fw-bolder m-3 text-center bg-light shadow border p-2 sticky-top'>All Users</div>
         <div> <br/>
         <table className='table table-striped col-12 col-md-6 col-lg-3'>
             <thead>

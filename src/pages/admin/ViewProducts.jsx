@@ -82,7 +82,7 @@ const ViewProducts = () => {
   return (
     <>
     <div className='container'> 
-    <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>Paintings</div>
+    <div className='fs-2 fw-bolder m-3 text-center bg-light shadow border sticky-top'>Paintings</div>
         <div className='d-flex row'>
         {
 

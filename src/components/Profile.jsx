@@ -36,8 +36,8 @@ const Profile = () => {
 
   return (
     <div className='container'>
-        <div className='fs-2 fw-bolder m-3 text-center bg-success bg-gradient text-light sticky-top'>Profile </div>
-          <div className='card p-4 bg-light row'>
+        <div className='fs-3 p-2 fw-bolder m-3 text-center bg-light shadow border sticky-top'>Profile </div>
+          <div className='card p-4 bg-light-subtle shadow row'>
             <form className='col'>
             <div className='p-2'>
               <label className='fs-5' htmlFor='nam'>Name : &nbsp; </label>
@@ -67,7 +67,7 @@ const Profile = () => {
               />
           </div>
           <div className='text-end mt-3'>
-            <button type='button' className='btn btn-primary' onClick={editProfile}>{edit ? 'Save Profile' : 'Edit Profile'}</button>
+            <button type='button' className='btn' onClick={editProfile}>{edit ? <span className='btn btn-success'>Save Profile</span> : <span className='btn btn-warning'>Edit Profile</span>}</button>
           </div>
           </form>
         </div>   
