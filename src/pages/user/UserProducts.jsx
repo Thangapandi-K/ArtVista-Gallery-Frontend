@@ -52,6 +52,12 @@ const UserProducts = () => {
                 <img src={`${BPORT}/uploads/${product.image}`} className="card-img-top w-100" alt={product.title}/>
 
                 <div className="card-body p-2">
+
+                <div className='card-title row p-2'>
+                    <div className="col fw-bold">Title :</div>
+                    <div className="col">{product.title}</div>
+                  </div>
+
                   <div className='card-title row p-2'>
                     <div className="col fw-bold">Artist :</div>
                     <div className="col">{product.artist}</div>
