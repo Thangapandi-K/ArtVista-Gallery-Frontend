@@ -1,5 +1,10 @@
 # ArtVista Gallery - CapeStone Project - Front End
 
+## Admin Credentials:
+    - E-mail: admin@mail.com    
+    - Password: 123456
+
+
 - **ArtVista Gallery** is a WebApplication where an Admin can Sell & Users can Buy Unique Paintings.
 
 - This web project is built using **MERN Stack**
